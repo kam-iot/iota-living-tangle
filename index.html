@@ -3,14 +3,27 @@
 <head>
   <meta charset="UTF-8" />
   <title>IOTA Living Tangle</title>
-  <style>body { margin: 0; background: black; overflow: hidden; }</style>
+  <style>
+    body { margin: 0; background: black; overflow: hidden; }
+    #logo {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 120px;
+      opacity: 0;
+      animation: fadeIn 3s ease-in-out forwards;
+    }
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+  </style>
 </head>
 <body>
+  <img src="assets/logo.png" id="logo" alt="Living Tangle Logo" />
   <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
   <script>
-    // Placeholder JS - dette vil bli erstattet med full funksjonalitet
-    document.body.innerHTML += '<h1 style="color:white;text-align:center;margin-top:20%">IOTA Tangle 3D Viewer – Placeholder</h1>';
+    document.body.innerHTML += '<h1 style="color:white;text-align:center;margin-top:25%">3D-modeller kommer snart...</h1>';
   </script>
 </body>
 </html>

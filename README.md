@@ -1,3 +1,3 @@
-# IOTA Living Tangle
+# IOTA Living Tangle v2
 
-Dette er en GitHub Pages-basert visualisering av IOTA Rebased-nettverket med 3D-dyremodeller.
+Denne versjonen inkluderer logo og forberedt layout for 3D-figurer.
